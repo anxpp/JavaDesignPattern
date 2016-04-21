@@ -1,7 +1,5 @@
 package com.anxpp.designpattern.decorator;
 
-
-
 public class TestUse {
 	public static void main(String args[]){
 		//被装饰者
