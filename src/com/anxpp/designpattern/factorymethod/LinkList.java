@@ -11,9 +11,14 @@ public class LinkList<T> implements List<T>{
 	public boolean add(T t) {
 		if(size==0){
 			first = new Node<T>(t,null);
+			size++;
+			return true;
 		}
-		while(first.next!=null);
-		first.next = new Node<T>(t,null);
+		Node<T> node = first;
+		while(node.next!=null)
+			node = node.next;
+		node.next = new Node<T>(t,null);
+		size++;
 		return true;
 	}
 	//链表节点
@@ -33,7 +38,7 @@ public class LinkList<T> implements List<T>{
 		}
 		@Override
 		public boolean hasNext() {
-			return next!=null;
+			return next != null;
 		}
 		@Override
 		public T next() {

@@ -11,7 +11,7 @@ public class TestUse {
 		}
 		//获得迭代器
 		Iterator<Integer> ai = array.iterator();
-		Iterator<Integer> li = array.iterator();
+		Iterator<Integer> li = link.iterator();
 		//遍历并输出
 		while(ai.hasNext())
 			System.out.print(ai.next());
