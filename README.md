@@ -3,7 +3,7 @@
 
 建议阅读源码时配合文章介绍
 
-http://anxpp.com/index.php/archives/489/
+http://anxpp.com/blog/index.php/archives/489/
 
 或者
 
